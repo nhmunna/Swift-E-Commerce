@@ -1,0 +1,24 @@
+* {
+  font-family: "Poppins", sans-serif;
+}
+:root {
+  --primary-color: #6366f1;
+  --dark-bg: #1a1a2e;
+  --light-bg: #f8f9fa;
+}
+.hero-section {
+  background-image:
+    linear-gradient(
+      135deg,
+      rgba(26, 26, 46, 0.9) 0%,
+      rgba(99, 102, 241, 0.1) 100%
+    ),
+    url("./assets/banner-image.png");
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  min-height: 500px;
+}
+#cart-count {
+  display: none;
+}
