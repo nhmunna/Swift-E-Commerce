@@ -1,0 +1,161 @@
+<!doctype html>
+<html lang="en" data-theme="light">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, maximum-scale=5.0"
+    />
+    <title>SwiftCart - Your Online Shopping Destination</title>
+    <meta
+      name="description"
+      content="Shop the latest fashion, electronics, and lifestyle products with fast delivery and excellent customer service."
+    />
+
+    <!-- Tailwind CSS CDN with Configuration -->
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <!-- Daisy UI -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/daisyui@4.12.10/dist/full.min.css"
+      rel="stylesheet"
+      type="text/css"
+    />
+
+    <!-- Font Awesome for Icons -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body class="bg-light-bg">
+    <!-- Navbar -->
+    <div class="navbar flex bg-white shadow-md sticky top-0 z-50 px-2 sm:px-4">
+      <div class="grow-3 navbar-start">
+        <div class="dropdown">
+          <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              class="h-5 w-5"
+              fill="none"
+              viewBox="0 0 24 24"
+              stroke="currentColor"
+            >
+              <path
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="2"
+                d="M4 6h16M4 12h8m-8 6h16"
+              />
+            </svg>
+          </div>
+          <ul
+            tabindex="-1"
+            class="menu menu-sm dropdown-content bg-base-100 rounded-box z-1 mt-3 w-52 p-2 shadow"
+          >
+            <a
+              href="index.html"
+              class="btn btn-ghost btn-sm md:btn-md text-xs sm:text-sm"
+              >Home</a
+            >
+            <a
+              href="products.html"
+              class="btn btn-ghost btn-sm md:btn-md text-xs sm:text-sm"
+              >Products</a
+            >
+            <a
+              href="about.html"
+              class="btn btn-ghost btn-sm md:btn-md text-xs sm:text-sm"
+              >About</a
+            >
+            <a
+              href="contact.html"
+              class="btn btn-ghost btn-sm md:btn-md text-xs sm:text-sm"
+              >Contact</a
+            >
+          </ul>
+        </div>
+        <a
+          href="index.html"
+          class="btn btn-ghost text-xl sm:text-2xl font-bold px-2 sm:px-4"
+        >
+          <span class="text-primary">SwiftCart</span>
+        </a>
+      </div>
+
+      <div class="navbar-center grow-7 hidden lg:flex">
+        <ul class="menu menu-horizontal px-1">
+          <div class="">
+            <a
+              href="index.html"
+              class="btn btn-ghost btn-sm md:btn-md text-xs sm:text-sm"
+              >Home</a
+            >
+            <a
+              href="products.html"
+              class="btn btn-ghost btn-sm md:btn-md text-xs sm:text-sm"
+              >Products</a
+            >
+            <a
+              href="about.html"
+              class="btn btn-ghost btn-sm md:btn-md text-xs sm:text-sm"
+              >About</a
+            >
+            <a
+              href="contact.html"
+              class="btn btn-ghost btn-sm md:btn-md text-xs sm:text-sm"
+              >Contact</a
+            >
+          </div>
+        </ul>
+      </div>
+      <div class="navbar-end grow-3 gap-2">
+        <a
+          href="cart.html"
+          class="btn btn-circle btn-ghost relative btn-sm sm:btn-md"
+        >
+          <i class="fas fa-shopping-cart text-lg sm:text-xl"></i>
+          <span
+            id="cart-count"
+            class="absolute -top-2 -right-2 badge badge-primary text-xs"
+            style="display: none"
+            >0</span
+          >
+        </a>
+      </div>
+    </div>
+
+    <!-- Hero Section -->
+    <section
+      class="hero-section flex items-center justify-center text-white relative h-96 xs:h-80 sm:h-96 md:h-screen"
+    >
+      <div class="hero-overlay absolute inset-0 bg-black/40"></div>
+      <div
+        class="hero-content text-center relative z-10 px-3 sm:px-4 md:px-6 max-w-4xl"
+      >
+        <div class="w-full">
+          <h1
+            class="text-3xl xs:text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-bold text-white mb-3 sm:mb-4 md:mb-6 leading-tight"
+          >
+            Best Collection For You
+          </h1>
+          <p
+            class="text-sm xs:text-base sm:text-lg md:text-xl mb-6 md:mb-8 max-w-3xl mx-auto text-gray-100 leading-relaxed"
+          >
+            Discover the latest trends in fashion, electronics, and more. Shop
+            with confidence and style at SwiftCart.
+          </p>
+          <a
+            href="products.html"
+            class="btn btn-primary btn-sm sm:btn-md md:btn-lg text-white gap-2"
+          >
+            <i class="fas fa-shopping-bag"></i>
+            Shop Now
+          </a>
+        </div>
+      </div>
+    </section>
+  </body>
+</html>
