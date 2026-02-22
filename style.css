@@ -22,3 +22,8 @@
 #cart-count {
   display: none;
 }
+
+footer {
+  background-color: #1a1a2e;
+  color: white;
+}
