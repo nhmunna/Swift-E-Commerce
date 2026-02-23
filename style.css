@@ -1,6 +1,7 @@
 * {
   font-family: "Poppins", sans-serif;
 }
+
 :root {
   --primary-color: #6366f1;
   --dark-bg: #1a1a2e;
@@ -19,7 +20,12 @@
   background-attachment: fixed;
   min-height: 500px;
 }
+
 #cart-count {
+  display: none;
+}
+
+#cart-content {
   display: none;
 }
 
