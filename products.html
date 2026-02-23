@@ -125,9 +125,90 @@
         </a>
       </div>
     </div>
+    <!-- Page Header -->
+    <div
+      class="bg-white flex justify-center items-center shadow-sm py-6 sm:py-8 px-3 sm:px-4"
+    >
+      <div class="max-w-6xl mx-auto">
+        <h1 class="text-2xl text-center sm:text-3xl md:text-4xl font-bold mb-2">
+          Our Products
+        </h1>
+        <p class="text-xs sm:text-sm md:text-base text-gray-600">
+          Browse our complete collection of products
+        </p>
+      </div>
+    </div>
 
-    
+    <!-- Main Content -->
+    <div class="max-w-6xl mx-auto px-3 sm:px-4 py-8 md:py-12">
+      <!-- Category Filter -->
+      <div class="mb-6 md:mb-8">
+        <h3 class="text-base sm:text-lg font-semibold mb-3 md:mb-4">
+          Filter by Category
+        </h3>
+        <div class="flex flex-wrap gap-2 sm:gap-3">
+          <button
+            class="category-pill active px-3 sm:px-6 py-2 text-xs sm:text-sm rounded-full border-2"
+            style="
+              border-color: var(--primary-color);
+              background-color: var(--primary-color);
+              color: white;
+            "
+            data-category="all"
+          >
+            All
+          </button>
+          <button
+            class="category-pill px-3 sm:px-6 py-2 text-xs sm:text-sm rounded-full border-2 border-gray-300 hover:border-primary"
+            data-category="electronics"
+          >
+            Electronics
+          </button>
+          <button
+            class="category-pill px-3 sm:px-6 py-2 text-xs sm:text-sm rounded-full border-2 border-gray-300 hover:border-primary"
+            data-category="jewelery"
+          >
+            Jewelery
+          </button>
+          <button
+            class="category-pill px-3 sm:px-6 py-2 text-xs sm:text-sm rounded-full border-2 border-gray-300 hover:border-primary"
+            data-category="men's clothing"
+          >
+            Men's Clothing
+          </button>
+          <button
+            class="category-pill px-3 sm:px-6 py-2 text-xs sm:text-sm rounded-full border-2 border-gray-300 hover:border-primary"
+            data-category="women's clothing"
+          >
+            Women's Clothing
+          </button>
+        </div>
+      </div>
 
+      <!-- Products Grid -->
+      <div
+        id="products-grid"
+        class="grid grid-cols-1 xs:grid-cols-2 md:grid-cols-2 lg:grid-cols-4 gap-4 sm:gap-6"
+      >
+        <!-- Products will be loaded here -->
+      </div>
+    </div>
+
+    <!-- Product Modal -->
+    <dialog id="product-modal" class="modal modal-bottom sm:modal-middle">
+      <div class="modal-box w-11/12 sm:w-full max-w-sm sm:max-w-2xl p-4 sm:p-6">
+        <form method="dialog">
+          <button
+            class="btn btn-sm btn-circle btn-ghost absolute right-2 top-2"
+          >
+            ✕
+          </button>
+        </form>
+        <div id="modal-content" class="py-4">
+          <!-- Modal content will be inserted here -->
+        </div>
+      </div>
+    </dialog>
 
     <!-- Footer -->
     <footer class="footer p-4 sm:p-8 md:p-10 gap-4 sm:gap-8">
