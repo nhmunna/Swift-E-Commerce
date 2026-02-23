@@ -125,9 +125,194 @@
         </a>
       </div>
     </div>
+    <!-- Page Header -->
+    <div class="bg-white shadow-sm py-6 sm:py-8 px-3 sm:px-4">
+      <div class="max-w-6xl mx-auto">
+        <h1
+          class="text-2xl text-primary sm:text-3xl md:text-4xl font-bold mb-2"
+        >
+          Contact Us
+        </h1>
+        <p class="text-xs sm:text-sm md:text-base text-gray-600">
+          We'd love to hear from you. Get in touch with our team.
+        </p>
+      </div>
+    </div>
 
-    
+    <!-- Main Content -->
+    <div class="max-w-6xl mx-auto px-3 sm:px-4 py-8 md:py-12">
+      <div class="grid grid-cols-1 md:grid-cols-3 gap-4 md:gap-8 mb-8 md:mb-12">
+        <!-- Contact Info Cards -->
+        <div class="card bg-white shadow-md h-full">
+          <div class="card-body items-center text-center p-4 md:p-6">
+            <i
+              class="fas fa-phone text-primary text-3xl md:text-4xl mb-3 md:mb-4"
+            ></i>
+            <h3 class="card-title text-base md:text-lg">Phone</h3>
+            <p class="text-xs md:text-sm text-gray-600">+880 1234-567890</p>
+            <p class="text-xs text-gray-500">Mon-Fri 9AM-6PM EST</p>
+          </div>
+        </div>
 
+        <div class="card bg-white shadow-md h-full">
+          <div class="card-body items-center text-center p-4 md:p-6">
+            <i
+              class="fas fa-envelope text-primary text-3xl md:text-4xl mb-3 md:mb-4"
+            ></i>
+            <h3 class="card-title text-base md:text-lg">Email</h3>
+            <p class="text-xs md:text-sm text-gray-600">
+              support@swiftcart.com
+            </p>
+            <p class="text-xs text-gray-500">We'll respond within 24 hours</p>
+          </div>
+        </div>
+
+        <div class="card bg-white shadow-md h-full">
+          <div class="card-body items-center text-center p-4 md:p-6">
+            <i
+              class="fas fa-map-marker-alt text-primary text-3xl md:text-4xl mb-3 md:mb-4"
+            ></i>
+            <h3 class="card-title text-base md:text-lg">Address</h3>
+            <p class="text-xs md:text-sm text-gray-600">123 Feni</p>
+            <p class="text-xs text-gray-500">Chittagong, Bangladesh</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Contact Form -->
+      <div class="grid grid-cols-1 lg:grid-cols-2 gap-4 md:gap-8">
+        <div class="card bg-white shadow-md">
+          <div class="card-body p-4 md:p-6">
+            <h2
+              class="card-title text-primary text-lg md:text-2xl mb-4 md:mb-6"
+            >
+              Send us a Message
+            </h2>
+
+            <form id="contact-form" class="space-y-3 md:space-y-4">
+              <div class="form-control">
+                <label class="label">
+                  <span class="label-text text-xs sm:text-sm">Full Name</span>
+                </label>
+                <input
+                  type="text"
+                  placeholder="John Doe"
+                  class="input input-bordered input-sm md:input-md text-xs sm:text-sm"
+                  id="name"
+                  required
+                />
+              </div>
+
+              <div class="form-control">
+                <label class="label">
+                  <span class="label-text text-xs sm:text-sm">Email</span>
+                </label>
+                <input
+                  type="email"
+                  placeholder="john@example.com"
+                  class="input input-bordered input-sm md:input-md text-xs sm:text-sm"
+                  id="email"
+                  required
+                />
+              </div>
+
+              <div class="form-control">
+                <label class="label">
+                  <span class="label-text text-xs sm:text-sm">Subject</span>
+                </label>
+                <input
+                  type="text"
+                  placeholder="How can we help?"
+                  class="input input-bordered input-sm md:input-md text-xs sm:text-sm"
+                  id="subject"
+                  required
+                />
+              </div>
+
+              <div class="form-control">
+                <label class="label">
+                  <span class="label-text text-xs sm:text-sm">Message</span>
+                </label>
+                <textarea
+                  class="textarea textarea-bordered textarea-sm md:textarea-md h-24 md:h-32 text-xs sm:text-sm"
+                  placeholder="Your message here..."
+                  id="message"
+                  required
+                ></textarea>
+              </div>
+
+              <button
+                type="submit"
+                class="btn btn-primary btn-outline btn-block btn-sm md:btn-md text-white text-xs sm:text-sm md:text-base"
+              >
+                Send Message
+              </button>
+            </form>
+          </div>
+        </div>
+
+        <!-- FAQ Section -->
+        <div class="card bg-white shadow-md">
+          <div class="card-body">
+            <h2 class="card-title text-primary text-2xl mb-6">
+              Frequently Asked Questions
+            </h2>
+
+            <div class="collapse collapse-arrow border border-gray-200 mb-2">
+              <input type="radio" name="faq" />
+              <div class="collapse-title font-semibold">
+                What is your return policy?
+              </div>
+              <div class="collapse-content text-gray-600">
+                <p>
+                  We offer easy returns within 30 days of purchase. Items must
+                  be unused and in original packaging.
+                </p>
+              </div>
+            </div>
+
+            <div class="collapse collapse-arrow border border-gray-200 mb-2">
+              <input type="radio" name="faq" />
+              <div class="collapse-title font-semibold">
+                How long does shipping take?
+              </div>
+              <div class="collapse-content text-gray-600">
+                <p>
+                  Standard shipping takes 5-7 business days. Express shipping is
+                  available for 2-3 business days.
+                </p>
+              </div>
+            </div>
+
+            <div class="collapse collapse-arrow border border-gray-200 mb-2">
+              <input type="radio" name="faq" />
+              <div class="collapse-title font-semibold">
+                Is my payment secure?
+              </div>
+              <div class="collapse-content text-gray-600">
+                <p>
+                  Yes, we use industry-standard SSL encryption to protect your
+                  payment information.
+                </p>
+              </div>
+            </div>
+
+            <div class="collapse collapse-arrow border border-gray-200 mb-2">
+              <input type="radio" name="faq" />
+              <div class="collapse-title font-semibold">
+                Can I track my order?
+              </div>
+              <div class="collapse-content text-gray-600">
+                <p>
+                  Yes, you'll receive a tracking number via email once your
+                  order ships.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
 
     <!-- Footer -->
     <footer class="footer p-4 sm:p-8 md:p-10 gap-4 sm:gap-8">
