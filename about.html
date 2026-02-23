@@ -125,136 +125,198 @@
         </a>
       </div>
     </div>
-
-    <!-- Hero Section -->
-    <section
-      class="hero-section flex items-center justify-center text-white relative h-96 xs:h-80 sm:h-96 md:h-screen"
-    >
-      <div class="hero-overlay absolute inset-0 bg-black/40"></div>
-      <div
-        class="hero-content text-center relative z-10 px-3 sm:px-4 md:px-6 max-w-4xl"
-      >
-        <div class="w-full">
-          <h1
-            class="text-3xl xs:text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-bold text-white mb-3 sm:mb-4 md:mb-6 leading-tight"
-          >
-            Best Collection For You
-          </h1>
-          <p
-            class="text-sm xs:text-base sm:text-lg md:text-xl mb-6 md:mb-8 max-w-3xl mx-auto text-gray-100 leading-relaxed"
-          >
-            Discover the latest trends in fashion, electronics, and more. Shop
-            with confidence and style at SwiftCart.
-          </p>
-          <a
-            href="products.html"
-            class="btn btn-primary btn-sm sm:btn-md md:btn-lg text-white gap-2"
-          >
-            <i class="fas fa-shopping-bag"></i>
-            Shop Now
-          </a>
-        </div>
-      </div>
-    </section>
-
-    <!-- Why Choose Us Section -->
-    <section class="py-8 sm:py-12 md:py-16 px-3 sm:px-4 md:px-6 bg-white">
+    <!-- Page Header -->
+    <div class="bg-white shadow-sm py-6 sm:py-8 px-3 sm:px-4">
       <div class="max-w-6xl mx-auto">
-        <h2
-          class="text-2xl sm:text-3xl md:text-4xl font-bold text-center mb-2 sm:mb-3 md:mb-4"
+        <h1
+          class="text-2xl text-primary sm:text-3xl md:text-4xl font-bold mb-2"
         >
-          Why Choose Us
-        </h2>
-        <p class="text-center text-gray-600 mb-8 md:mb-12 text-sm sm:text-base">
-          We provide the best shopping experience with top-notch services.
+          About SwiftCart
+        </h1>
+        <p class="text-xs sm:text-sm md:text-base text-gray-600">
+          Learn more about our company and mission
         </p>
-
-        <div
-          class="grid grid-cols-1 xs:grid-cols-2 md:grid-cols-2 lg:grid-cols-4 gap-4 sm:gap-6 md:gap-8"
-        >
-          <div
-            class="card bg-base-100 shadow-md hover:shadow-lg transition h-full"
-          >
-            <div class="card-body items-center text-center p-4 sm:p-6">
-              <i
-                class="fas fa-truck text-primary text-2xl sm:text-3xl mb-3 sm:mb-4"
-              ></i>
-              <h3 class="card-title text-base sm:text-lg">Fast Delivery</h3>
-              <p class="text-xs sm:text-sm text-gray-600">
-                Get your orders delivered to your doorstep quickly and
-                efficiently.
-              </p>
-            </div>
-          </div>
-
-          <div
-            class="card bg-base-100 shadow-md hover:shadow-lg transition h-full"
-          >
-            <div class="card-body items-center text-center p-4 sm:p-6">
-              <i class="fas fa-headset text-primary text-3xl mb-4"></i>
-              <h3 class="card-title text-lg">24/7 Support</h3>
-              <p class="text-sm text-gray-600">
-                Our support team is available around the clock to assist you.
-              </p>
-            </div>
-          </div>
-
-          <div class="card bg-base-100 shadow-md hover:shadow-lg transition">
-            <div class="card-body items-center text-center">
-              <i class="fas fa-lock text-primary text-3xl mb-4"></i>
-              <h3 class="card-title text-lg">Secure Payment</h3>
-              <p class="text-sm text-gray-600">
-                Experience safe and secure transactions with our encrypted
-                payment systems.
-              </p>
-            </div>
-          </div>
-
-          <div class="card bg-base-100 shadow-md hover:shadow-lg transition">
-            <div class="card-body items-center text-center">
-              <i class="fas fa-undo text-primary text-3xl mb-4"></i>
-              <h3 class="card-title text-lg">Easy Returns</h3>
-              <p class="text-sm text-gray-600">
-                Not satisfied? Return your products easily within 30 days.
-              </p>
-            </div>
-          </div>
-        </div>
       </div>
-    </section>
+    </div>
 
-    <!-- Trending Now Section -->
-    <section class="py-8 sm:py-12 md:py-16 px-3 sm:px-4 md:px-6 bg-light-bg">
-      <div class="max-w-6xl mx-auto">
+    <!-- Main Content -->
+    <div class="max-w-6xl mx-auto px-3 sm:px-4 py-8 md:py-12">
+      <!-- Our Story -->
+      <section class="mb-12 md:mb-16">
         <h2
-          class="text-2xl sm:text-3xl md:text-4xl font-bold text-center mb-8 md:mb-12"
+          class="text-xl text-primary sm:text-2xl md:text-3xl font-bold mb-4 md:mb-6"
         >
-          Trending Now
+          Our Story
         </h2>
-        <div
-          id="trending-products"
-          class="grid grid-cols-1 xs:grid-cols-2 md:grid-cols-2 lg:grid-cols-4 gap-4 sm:gap-6"
-        >
-          <!-- Products will be loaded here -->
-        </div>
-      </div>
-    </section>
-
-    <!-- Product Modal -->
-    <dialog id="product-modal" class="modal modal-bottom sm:modal-middle">
-      <div class="modal-box w-11/12 sm:w-full max-w-sm sm:max-w-2xl p-4 sm:p-6">
-        <form method="dialog">
-          <button
-            class="btn btn-sm btn-circle btn-ghost absolute right-2 top-2"
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-4 md:gap-8">
+          <div>
+            <p
+              class="text-xs sm:text-sm md:text-base text-gray-700 mb-3 md:mb-4 leading-relaxed"
+            >
+              SwiftCart was founded with a simple mission: to revolutionize
+              online shopping by providing customers with a seamless, fast, and
+              enjoyable shopping experience. We believe that every customer
+              deserves quality products at great prices with exceptional
+              service.
+            </p>
+            <p
+              class="text-xs sm:text-sm md:text-base text-gray-700 mb-3 md:mb-4 leading-relaxed"
+            >
+              What started as a small venture has grown into a trusted platform
+              serving thousands of customers worldwide. We're committed to
+              innovation, customer satisfaction, and continuous improvement.
+            </p>
+          </div>
+          <div
+            class="bg-gray-100 rounded-lg p-4 md:p-8 flex items-center justify-center h-full"
           >
-            ✕
-          </button>
-        </form>
-        <div id="modal-content" class="py-4">
-          <!-- Modal content will be inserted here -->
+            <div class="text-center">
+              <i
+                class="fas fa-shopping-cart text-primary text-4xl md:text-6xl mb-3 md:mb-4"
+              ></i>
+              <p class="text-xs sm:text-sm md:text-lg text-gray-600">
+                Building the future of e-commerce
+              </p>
+            </div>
+          </div>
         </div>
-      </div>
-    </dialog>
+      </section>
+
+      <!-- Mission & Values -->
+      <section class="mb-12 md:mb-16">
+        <h2
+          class="text-xl text-primary sm:text-2xl md:text-3xl font-bold mb-4 md:mb-6"
+        >
+          Our Mission & Values
+        </h2>
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-4 md:gap-6">
+          <div class="card bg-white shadow-md h-full">
+            <div class="card-body p-4 md:p-6">
+              <div class="flex items-center text-primary gap-3 mb-3 md:mb-4">
+                <i
+                  class="fa-solid fa-arrows-down-to-people text-2xl md:text-3xl"
+                ></i>
+                <h3 class="card-title text-base md:text-lg">Our Mission</h3>
+              </div>
+              <p class="text-xs sm:text-sm text-gray-600">
+                To provide an exceptional shopping experience with quality
+                products, competitive prices, and outstanding customer service.
+              </p>
+            </div>
+          </div>
+
+          <div class="card bg-white shadow-md h-full">
+            <div class="card-body p-4 md:p-6">
+              <div class="flex text-primary items-center gap-3 mb-3 md:mb-4">
+                <i class="fas fa-heart text-2xl md:text-3xl"></i>
+                <h3 class="card-title text-base md:text-lg">Customer First</h3>
+              </div>
+              <p class="text-xs sm:text-sm text-gray-600">
+                We put our customers at the heart of everything we do, ensuring
+                their needs and satisfaction come first.
+              </p>
+            </div>
+          </div>
+
+          <div class="card bg-white shadow-md h-full">
+            <div class="card-body p-4 md:p-6">
+              <div class="flex text-primary items-center gap-3 mb-3 md:mb-4">
+                <i class="fas fa-lightbulb text-2xl md:text-3xl"></i>
+                <h3 class="card-title text-lg">Innovation</h3>
+              </div>
+              <p class="text-gray-600">
+                We continuously innovate to bring you the latest technology and
+                shopping features.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Why Choose Us -->
+      <section class="mb-16">
+        <h2 class="text-3xl text-primary font-bold mb-6">
+          Why Choose SwiftCart?
+        </h2>
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+          <div class="flex gap-4">
+            <div class="flex-shrink-0">
+              <div
+                class="flex items-center justify-center h-12 w-12 rounded-md"
+              >
+                <i class="fas fa-check"></i>
+              </div>
+            </div>
+            <div>
+              <h3 class="text-lg text-primary font-semibold mb-2">
+                Wide Selection
+              </h3>
+              <p class="text-gray-600">
+                Browse thousands of products across multiple categories from
+                trusted brands.
+              </p>
+            </div>
+          </div>
+
+          <div class="flex gap-4">
+            <div class="flex-shrink-0">
+              <div
+                class="flex items-center justify-center h-12 w-12 rounded-md"
+              >
+                <i class="fas fa-check"></i>
+              </div>
+            </div>
+            <div>
+              <h3 class="text-lg text-primary font-semibold mb-2">
+                Best Prices
+              </h3>
+              <p class="text-gray-600">
+                We offer competitive prices and regular discounts to ensure
+                great value for money.
+              </p>
+            </div>
+          </div>
+
+          <div class="flex gap-4">
+            <div class="flex-shrink-0">
+              <div
+                class="flex items-center justify-center h-12 w-12 rounded-md"
+              >
+                <i class="fas fa-check"></i>
+              </div>
+            </div>
+            <div>
+              <h3 class="text-lg text-primary font-semibold mb-2">
+                Fast Delivery
+              </h3>
+              <p class="text-gray-600">
+                Quick and reliable shipping to get your orders delivered right
+                to your doorstep.
+              </p>
+            </div>
+          </div>
+
+          <div class="flex gap-4">
+            <div class="flex-shrink-0">
+              <div
+                class="flex items-center justify-center h-12 w-12 rounded-md"
+              >
+                <i class="fas fa-check"></i>
+              </div>
+            </div>
+            <div>
+              <h3 class="text-lg text-primary font-semibold mb-2">
+                Secure Payments
+              </h3>
+              <p class="text-gray-600">
+                Shop with confidence using our secure payment gateway and buyer
+                protection.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+    </div>
 
     <!-- Footer -->
     <footer class="footer p-4 sm:p-8 md:p-10 gap-4 sm:gap-8">
